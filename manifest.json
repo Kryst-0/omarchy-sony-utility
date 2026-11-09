@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "krysto.sony-utility",
+  "name": "Sony Utility",
+  "version": "1.0.0",
+  "author": "Krysto",
+  "license": "MIT",
+  "description": "Bluetooth native EQ, Clear Bass and supported MDR v2 settings for Sony WH-CH520.",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Panel.qml"
+  },
+  "barWidget": {
+    "displayName": "Sony Utility",
+    "description": "WH-CH520 native controls that follow the default audio output.",
+    "category": "Audio",
+    "defaultSection": "right",
+    "allowMultiple": false
+  },
+  "repository": "https://github.com/Kryst-0/omarchy-sony-utility"
+}
